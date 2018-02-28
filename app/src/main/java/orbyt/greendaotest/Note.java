@@ -32,20 +32,6 @@ public class Note {
     }
 
 
-    @Generated(hash = 1028896452)
-    public Note(Long id, @NotNull String text, String comment, java.util.Date date) {
-        this.id = id;
-        this.text = text;
-        this.comment = comment;
-        this.date = date;
-    }
-
-
-    @Generated(hash = 1272611929)
-    public Note() {
-    }
-
-
     public Long getId() {
         return id;
     }
